@@ -14,6 +14,9 @@
 ### Goals of the project :
               " To build models capable of understanding and classifying the sentiment expressed in movie reviews. you can explore different NLP techniques like breaking down text into smaller parts like (tokenization), using word representations (embeddings), and figuring out the overall mood of a sentence (sentiment scoring). It’s all about helping AI better understand human language and emotions. "
 
+### Dataset :
+
+    https://www.kaggle.com/code/brendanartley/keras-nn-imdb-sentiment-analysis-85/input
 
 ### CODE EXPLAINATION : 
 
