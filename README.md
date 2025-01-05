@@ -1,6 +1,6 @@
-1. ### Project Title and Description : " Internet Movie Review Dataset "
+#  Project Title and Description : " Internet Movie Review Dataset "
 
-# Descriptions of the project :
+### Descriptions of the project :
                    " The Internet Movie Reviews Dataset is a collection of movie reviews written by users, often sourced from platforms like IMDb. It’s designed to help researchers and developers to create and test models that can determine the emotional tone or sentiment of these reviews whether they are positive or a negative reviews. "
 ### Content: 
     " It contains text reviews from users about movies, typically collected from platforms like IMDb."
@@ -24,10 +24,16 @@ import numpy as np   (To used for the array)
 from sklearn.preprocessing import LabelEncoder (To convert the categorical to numeric label in target variable)
 from sklearn.model_selection import train_test_split  (To split the data into train and test data)
 
-from sklearn.feature_extraction.text import TfidfVectorizer (To used to convert text data into numerical features by calculating the TF-IDF (Term Frequency-Inverse Document Frequency) scores for each word, that can capturing their importance in the text.)
 
-** Machine Learning Models : **
+#####  "Machine Learning Models : "
+
+from sklearn.feature_extraction.text import TfidfVectorizer (To used to convert text data into numerical features by calculating the TF-IDF (Term Frequency-Inverse Document Frequency) scores for each word, that can capturing their importance in the text.)
 from sklearn.linear_model import LogisticRegression ( is used for binary classification tasks based on input data.)
 from sklearn.naive_bayes import MultinomialNB  ( is used to classify text or categorical data with word counts frequencies).
 
-** Deep Learning Models : **
+#####  " Deep Learning Models : "
+
+import tensorflow as tf (tensorflow and keras: Used to build and train neural networks for tasks like image recognition, text analysis, or predictions.)
+from keras.models import Sequential (Sequential: Simplifies creating a linear stack {LIFO} of layers for neural networks.)
+from keras.layers import Dense, Dropout (Dense: A fully connected layer, used to learn patterns in data.  Dropout: Prevents overfitting by randomly disabling neurons during training.)
+from transformers import BertTokenizer, TFBertForSequenceClassification (transformers and TFBertForSequenceClassification: Pretrained transformer models (like BERT) are used for advanced NLP tasks like sentiment analysis or text classification. BertTokenizer: Prepares text for input into BERT models.)
