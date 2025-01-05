@@ -1,6 +1,6 @@
 1. ### Project Title and Description : " Internet Movie Review Dataset "
 
-### Descriptions of the project :
+# Descriptions of the project :
                    " The Internet Movie Reviews Dataset is a collection of movie reviews written by users, often sourced from platforms like IMDb. It’s designed to help researchers and developers to create and test models that can determine the emotional tone or sentiment of these reviews whether they are positive or a negative reviews. "
 ### Content: 
     " It contains text reviews from users about movies, typically collected from platforms like IMDb."
