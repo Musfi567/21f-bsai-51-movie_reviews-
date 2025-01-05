@@ -74,10 +74,6 @@ from sklearn.metrics import f1_score
     
     (f1_score: Combines precision and recall into a single score to balance both.)
 
-from sklearn.metrics import classification_report
-
-    (classification_report: Provides a summary of precision, recall, F1 score, and support for each class in a classification problem.)
-
 ### Upload the Reviews Dataset :
 
 chunks = pd.read_csv('IMDB Dataset.csv', chunksize=1000, engine='python', on_bad_lines='skip')
