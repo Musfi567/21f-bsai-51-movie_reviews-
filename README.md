@@ -17,7 +17,7 @@
 
 ### CODE EXPLAINATION : 
 
-Firstly , we can ### import the Necessary Libraries.
+## import the Necessary Libraries.
 
 import pandas as pd  (To Read the file)
 import numpy as np   (To used for the array)
